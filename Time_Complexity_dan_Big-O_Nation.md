@@ -49,7 +49,7 @@ __Constant Time__ artinya banyaknya input yang diberikan kepada sebuah algoritma
 
 <p><img src="img/gambar4.jpg" width="600px"></p>
 
-<p align="center"><i>Note: Fungsi rekursif biasanya Logarithmic</i></p>
+_Note: Fungsi rekursif biasanya Logarithmic_
 
 <br>
 

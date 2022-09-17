@@ -23,7 +23,7 @@ NIM : 2110131220012
 
 <p align="justify">Big-O Notation adalah cara untuk mengkonversi keseluruhan langkah-langkah suatu algoritma kedalam bentuk Aljabar, yaitu dengan menghiraukan konstanta yang lebih kecil dan koefisien yang tidak berdampak besar terhadap keseluruhan kompleksitas permasalahan yang diselesaikan oleh algoritma tersebut.
 
-<img src="img/gambar1.png" width="700px">
+<p align="center"><img src="img/gambar1.png" width="700px"></p>
 
 <p align="justify">Sederhananya, semua contoh yang ada diatas mengatakan bahwa <b>“kita hanya akan melihat faktor yang memiliki dampak paling besar terhadap nilai yang dihasilkan oleh algoritma tersebut”</b>.
 
@@ -35,7 +35,7 @@ Terdapat beberapa macam __time complexity__, diantaranya :
 
 __Constant Time__ artinya banyaknya input yang diberikan kepada sebuah algoritma, tidak akan mempengaruhi waktu proses _(runtime)_ dari algoritma tersebut.
 
-<img src="img/gambar2.png" width="600px">
+<p><img src="img/gambar2.png" width="600px"></p>
 
 <p align="justify"> Dari contoh di atas, terdapat sebuah fungsi untuk mengambil elemen pertama dari sebuah input array. Kita bisa melihat bahwa berapapun jumlah array yang diberikan kepada fungsi tersebut, dia akan selalu melakukan 1 hal, yaitu mengambil elemen pertama. Itu artinya <b>jumlah input yang diberikan tidak mempengaruhi waktu proses <i>(runtime)</i> dari algoritma tersebut.</b>
 
@@ -47,9 +47,9 @@ __Constant Time__ artinya banyaknya input yang diberikan kepada sebuah algoritma
 
 <p align="justify"> <b>Logarithmic Time</b> artinya ketika kita memberikan input sebesar n terhadap sebuah fungsi, jumlah tahapan yang dilakukan oleh fungsi tersebut berkurang berdasarkan suatu faktor. Salah satu contohnya adalah algoritma <b>Binary Search.</b> Binary Search adalah algoritma yang kita gunakan dalam mencari posisi nilai dari suatu array dengan cara ‘mengeliminasi’ setengah dari array input untuk mempercepat proses pencarian.
 
-<img src="img/gambar4.jpg" width="600px">
+<p><img src="img/gambar4.jpg" width="600px"></p>
 
-_Note: Fungsi rekursif biasanya Logarithmic_
+<p align="center"><i>Note: Fungsi rekursif biasanya Logarithmic</i></p>
 
 <br>
 
@@ -57,7 +57,7 @@ _Note: Fungsi rekursif biasanya Logarithmic_
 
 <p align="justify"><b>Linear Time</b> adalah ketika runtime dari fungsi kita berbanding lurus dengan jumlah input yang diberikan.
 
-<img src="img/gambar5.png" width="600px">
+<p><img src="img/gambar5.png" width="600px"></p>
 
 <p align="justify">Kita bisa melihat bahwa <b>semakin banyak jumlah input yang diberikan, maka waktu proses/<i>runtime</i> dari fungsi tersebut akan semakin besar.</b>
 
@@ -69,7 +69,7 @@ _Note: Fungsi rekursif biasanya Logarithmic_
 
 <p align="justify"><b>Quadratic Time</b> adalah ketika runtime dari fungsi kita adalah sebesar n^2, dimana n adalah jumlah input dari fungsi tersebut. Hal tersebut bisa terjadi karena kita menjalankan <b>fungsi linear didalam fungsi linear</b> (n*n).
 
-<img src="img/gambar7.jpg" width="600px">
+<p><img src="img/gambar7.jpg" width="600px"></p>
 
 <p align="center"><img src="img/gambar9.png" width="500px"></p>
 
